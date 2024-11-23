@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+h1{
+    padding: 20px;
+}
+.counter{
+    padding: 20px ;
+}
+.error-msg{
+    padding: 20px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+    gap: 10px;
+}
+.Decrement{
+    border: none;
+    outline: none;
+    padding: 16px 50px;   
+    color: black;
+    font-size: 16px;
+    cursor: pointer;  
+    justify-content: space-between; 
+}
+.Increment{
+    border: none;
+    outline: none;
+    padding: 16px 50px;   
+    color: black;
+    font-size: 16px;
+    cursor: pointer;  
+    justify-content: space-between; 
+}
+.Clear{
+    border: none;
+    outline: none;
+    padding: 16px 50px;   
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;  
+    justify-content: space-between; 
+}
+
+
